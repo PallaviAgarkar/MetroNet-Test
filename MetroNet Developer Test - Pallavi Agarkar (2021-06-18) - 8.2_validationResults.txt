@@ -1,0 +1,8 @@
+
+Step1 Output: 
+Contact List with validation error report:
+[['Abigail Rodriguez', 'Valid'], ['Amelia Davis', 'Valid'], ['Benjamin Hermandez', 'Valid'], ['Charlotte Miller', 'Valid'], ['Elijah Martin', 'Email is invalid'], ['Emma Smith', 'Phone is invalid'], ['Evelyn Garcia', 'Valid'], ['Isabella Williams', 'Valid'], ['Jacob Thompson', 'Valid'], ['James Taylor', 'Email is invalid'], ['James White', 'Valid'], ['Liam Martinez', 'Email is invalid'], ['Logan Thomas', 'Email and Phone are invalid'], ['Mary Wilson', 'Email and Phone are invalid'], ['Mason Moore', 'Valid'], ['Oliver Jackson', 'Valid'], ['Olivia Johnson', 'Valid'], ['Sophia Brown', 'Valid'], ['Taylor Jones', 'Valid'], ['William Anderson', 'Valid']]
+ 
+Step2 Output: 
+City validation error report:
+[('Evansville', 2), ('Chicago', 2), ('Kansas City', 2), ('Seattle', 0), ('New York', 0), ('San Franscico', 0)]

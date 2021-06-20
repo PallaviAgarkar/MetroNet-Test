@@ -1,0 +1,14 @@
+﻿.intro {
+    background-color: azure;
+}
+
+.button {
+    background-color: blanchedalmond;
+    border: groove;
+    color: black;
+    padding: initial;
+    text-align: center;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: initial;
+}

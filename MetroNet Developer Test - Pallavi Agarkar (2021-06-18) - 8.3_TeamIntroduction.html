@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<link href="../CSSstyles/CSS.css" rel="stylesheet" />
+<script src="../Scripts/JS1.js"></script>
+<!--<script src="../scripts/script.js"></script>
+<link href="../css/Style.css" rel="stylesheet" />-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Team Introduction</title>
+</head>
+<body class="intro">
+    <button class="button" onclick="ToggleState()"> Introduction Box </button>
+    <!-- Input data in form -->
+    <div id="myFormId" hidden>
+        <form name="introForm" id="frmid">
+            <table style="width:75%" id="tableid">
+                <tr><td>Name: </td><td><input id="txtName" type="text" /></td></tr>
+                <tr><td>Funfact: </td><td><input id="txtFunfact" type="text" /></td></tr>
+                <tr><td><input id="btnSubmit" onclick="PrintInConsole()" value=" Submit " class="button" /></td></tr>
+            </table>
+        </form>
+    </div>
+    <!-- Show data on screen upon submit -->
+    <div id="myDataId" hidden>
+        <form>
+            <table style="width:75%" id="tableid">
+                <tr><td>Name: </td><td id="txtDataName"></td></tr>
+                <tr><td>Funfact: </td><td id="txtDataFunfact"></td></tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
